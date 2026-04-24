@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CF7ECC8C073E0AAF9DB0BA2 /* StatusPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7354C23BBC860FCA8AC21ED /* StatusPanel.swift */; };
+		31262E5558948127AB4F10F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2027B843546E84159CFA6F /* ContentView.swift */; };
+		53857405F12BE5ADEA7E5FB0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD663BC913460BDA0A43601E /* Models.swift */; };
+		613BB0E7BF4B3410DDF7DA10 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2CF86FA1D0F1CB29DD49FC /* SettingsView.swift */; };
+		84C92E8FBFC3A672DCD28287 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AAE2C9397329F5A0EACD0A /* ConfigManager.swift */; };
+		9819CB6C1ECD43720A5AF37B /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CADD5DC452542B9458AF9EF /* ViewModels.swift */; };
+		B1CD0A2C097C9E7F8BA6F004 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4AE0535D9D6E0F02B987F3 /* main.swift */; };
+		B827D9F138B9A7D5F801C20A /* RAMDiskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28500B19DF33B5412E9BE1D3 /* RAMDiskService.swift */; };
+		C7D112EF5A62080A3748FA68 /* CacheLinkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5CAD1361ABF6E0EE50914C /* CacheLinkService.swift */; };
+		DCF1D3F0061C41BDD07C15BC /* LaunchAgentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB1512A99A128A862D1CACA /* LaunchAgentService.swift */; };
+		E57406C71C5D559A49F7E878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F71B07A6E2E34F9ED792F3 /* AppDelegate.swift */; };
+		FB2997F7715678BEA145AA60 /* CacheListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129796D4145FDC3A7F894246 /* CacheListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04AAE2C9397329F5A0EACD0A /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		129796D4145FDC3A7F894246 /* CacheListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheListView.swift; sourceTree = "<group>"; };
+		1F25B299B345F925A3842909 /* RAMCacheManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RAMCacheManager.entitlements; sourceTree = "<group>"; };
+		28500B19DF33B5412E9BE1D3 /* RAMDiskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMDiskService.swift; sourceTree = "<group>"; };
+		48B3ED34D73AB4022B432018 /* RAMCacheManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAMCacheManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CADD5DC452542B9458AF9EF /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
+		9A2027B843546E84159CFA6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C2CF86FA1D0F1CB29DD49FC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9C4AE0535D9D6E0F02B987F3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B3F71B07A6E2E34F9ED792F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD663BC913460BDA0A43601E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		BF5CAD1361ABF6E0EE50914C /* CacheLinkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheLinkService.swift; sourceTree = "<group>"; };
+		C7354C23BBC860FCA8AC21ED /* StatusPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusPanel.swift; sourceTree = "<group>"; };
+		CCB1512A99A128A862D1CACA /* LaunchAgentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAgentService.swift; sourceTree = "<group>"; };
+		F76405AF9E7B45720C2BCEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1A04BA7C27AEB328A362BAE5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BF46D9A184837DD7E19FBC40 /* App */,
+				32E4C0D5E4F134BCE3C25EBC /* Models */,
+				87A3775DFC20FBA562E6DD0E /* Services */,
+				1BC154112BC6E26EC2A0AB0E /* ViewModels */,
+				64442A67F4281054623823C2 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1BC154112BC6E26EC2A0AB0E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7CADD5DC452542B9458AF9EF /* ViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		32E4C0D5E4F134BCE3C25EBC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD663BC913460BDA0A43601E /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64442A67F4281054623823C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				129796D4145FDC3A7F894246 /* CacheListView.swift */,
+				9A2027B843546E84159CFA6F /* ContentView.swift */,
+				9C2CF86FA1D0F1CB29DD49FC /* SettingsView.swift */,
+				C7354C23BBC860FCA8AC21ED /* StatusPanel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6515B9DBDABFB9F6AE126ACC = {
+			isa = PBXGroup;
+			children = (
+				1A04BA7C27AEB328A362BAE5 /* Sources */,
+				80020C83DBA1011FD6D14A2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80020C83DBA1011FD6D14A2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48B3ED34D73AB4022B432018 /* RAMCacheManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87A3775DFC20FBA562E6DD0E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BF5CAD1361ABF6E0EE50914C /* CacheLinkService.swift */,
+				04AAE2C9397329F5A0EACD0A /* ConfigManager.swift */,
+				CCB1512A99A128A862D1CACA /* LaunchAgentService.swift */,
+				28500B19DF33B5412E9BE1D3 /* RAMDiskService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BF46D9A184837DD7E19FBC40 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B3F71B07A6E2E34F9ED792F3 /* AppDelegate.swift */,
+				F76405AF9E7B45720C2BCEBD /* Info.plist */,
+				9C4AE0535D9D6E0F02B987F3 /* main.swift */,
+				1F25B299B345F925A3842909 /* RAMCacheManager.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FF0A9FEF203D0CB3B020090 /* RAMCacheManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937E43229BE6513519D170C0 /* Build configuration list for PBXNativeTarget "RAMCacheManager" */;
+			buildPhases = (
+				13B702AAE363BFE3F7CB912E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAMCacheManager;
+			packageProductDependencies = (
+			);
+			productName = RAMCacheManager;
+			productReference = 48B3ED34D73AB4022B432018 /* RAMCacheManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2ABB93DAA65294B4DE04EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7FF0A9FEF203D0CB3B020090 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 3633D55D85DB2E971855F7AC /* Build configuration list for PBXProject "RAMCacheManager" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6515B9DBDABFB9F6AE126ACC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 80020C83DBA1011FD6D14A2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FF0A9FEF203D0CB3B020090 /* RAMCacheManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B702AAE363BFE3F7CB912E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57406C71C5D559A49F7E878 /* AppDelegate.swift in Sources */,
+				C7D112EF5A62080A3748FA68 /* CacheLinkService.swift in Sources */,
+				FB2997F7715678BEA145AA60 /* CacheListView.swift in Sources */,
+				84C92E8FBFC3A672DCD28287 /* ConfigManager.swift in Sources */,
+				31262E5558948127AB4F10F1 /* ContentView.swift in Sources */,
+				DCF1D3F0061C41BDD07C15BC /* LaunchAgentService.swift in Sources */,
+				53857405F12BE5ADEA7E5FB0 /* Models.swift in Sources */,
+				B827D9F138B9A7D5F801C20A /* RAMDiskService.swift in Sources */,
+				613BB0E7BF4B3410DDF7DA10 /* SettingsView.swift in Sources */,
+				1CF7ECC8C073E0AAF9DB0BA2 /* StatusPanel.swift in Sources */,
+				9819CB6C1ECD43720A5AF37B /* ViewModels.swift in Sources */,
+				B1CD0A2C097C9E7F8BA6F004 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		328B7D0F283A84FB0D7CD0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/App/RAMCacheManager.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Sources/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramcachemanager.RAMCacheManager;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4AC1899A38165803C4233037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = RAMCacheManager;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		4DDC7221203A9F39FC91A0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = RAMCacheManager;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		9C330AEAAE0576CE6E353A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/App/RAMCacheManager.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Sources/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramcachemanager.RAMCacheManager;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3633D55D85DB2E971855F7AC /* Build configuration list for PBXProject "RAMCacheManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDC7221203A9F39FC91A0F0 /* Debug */,
+				4AC1899A38165803C4233037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		937E43229BE6513519D170C0 /* Build configuration list for PBXNativeTarget "RAMCacheManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C330AEAAE0576CE6E353A60 /* Debug */,
+				328B7D0F283A84FB0D7CD0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2ABB93DAA65294B4DE04EEA /* Project object */;
+}
